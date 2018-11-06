@@ -1,0 +1,8 @@
+def similarity(v1, v2):
+    n1 = np.linalg.norm(v1)
+    n2 = np.linalg.norm(v2)
+    return np.dot(v1, v2) / n1 / n2
+
+v1 = sg_model.get_word_vector('drink')
+v2 = sg_model.get_word_vector('drinks')
+print(similarity(v1, v2))
