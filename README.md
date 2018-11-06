@@ -2,6 +2,12 @@
 
 #研究用資料　
 
-func_normalize => 前処理用関数
-parse_labels_confusion_matrics　=> onfusion_matricsの表示
+The codes here are functions for NLP tasks using fastText
+All codes are from this boook:
+fastText Quick Start Guide
+https://www.safaribooksonline.com/library/view/fasttext-quick-start/9781789130997/
+
+func_normalize => ノイズ除去用の前処理の関数
+parse_labels_confusion_matrics　=> onfusion_matricsを表示する関数
+def_similarity =>　単語間のコサイン類似度を算出する関数
 
