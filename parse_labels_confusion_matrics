@@ -1,6 +1,7 @@
 #!/usr/local/bin/python3
 # @author cpuhrsch https://github.com/cpuhrsch
 # @author Loreto Parisi loreto@musixmatch.com
+# 混合行列の表示スクリプト
 
 import argparse
 import numpy as np
